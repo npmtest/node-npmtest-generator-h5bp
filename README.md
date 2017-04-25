@@ -1,6 +1,6 @@
 # npmtest-generator-h5bp
 
-#### test coverage for  [generator-h5bp (v1.4.0)](https://github.com/h5bp/generator-h5bp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-h5bp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-h5bp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-h5bp.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-h5bp)
+#### basic test coverage for  [generator-h5bp (v1.4.0)](https://github.com/h5bp/generator-h5bp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-h5bp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-h5bp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-h5bp.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-h5bp)
 
 #### HTML5 Boilerplate generator
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-generator-h5bp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-generator-h5bp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-generator-h5bp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-generator-h5bp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-h5bp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-h5bp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-generator-h5bp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-generator-h5bp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-h5bp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-h5bp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-generator-h5bp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-generator-h5bp/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
